@@ -9,6 +9,10 @@
         <p class="text-xl my-7">R$ {{ produto.price }}</p>
         <p class="font-bold border-b-2 mb-4 pb-2">Descrição:</p>
         <p class="mb-7">{{ produto.description }}</p>
+        <button class="btn flex">
+          <i class="material-icons mr-2">add_shopping_cart</i>
+          <span>Adicionar ao carrinho</span>
+        </button>
       </div>
     </div>
   </div>

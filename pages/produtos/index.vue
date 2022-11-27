@@ -13,6 +13,10 @@ definePageMeta({
   layout: "products",
 });
 
+useHead({
+  title: "Store WDEV | Produtos",
+});
+
 const { data: produtos } = await useFetch("https://fakestoreapi.com/products");
 </script>
 
