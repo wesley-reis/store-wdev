@@ -16,7 +16,8 @@
 //   method: "POST",
 //   body: { idade: 44 },
 // });
-const { data } = await useFetch("/api/currency/CAD");
+const { data } = await useFetch("/api/produtos-api");
+//const { data } = await useFetch("/api/currency/CAD");
 </script>
 
 <style scoped>

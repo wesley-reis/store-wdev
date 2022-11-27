@@ -13,7 +13,12 @@ export default defineEventHandler(async (event) => {
 
 
     //api externa
-    const { data } = await $fetch('https://api.currencyapi.com/v3/latest?apikey=5YZNlHrIsgWYscTdHAPUX0lU1e8SqyvOoKR5eqnI')
+    const { data } = await $fetch('https://api.currencyapi.com/v3/latest?apikey=5YZNlHrIsgWYscTdHAPUX0lU1e8SqyvOoKR5eqnI', {
+        headers: {
+            "Content-Type": "application/json",
+            "Authorization": "hsjdhfghsjdhf-sdfhsjhdjkf-+6897sdfs8fd8s"
+        }
+    })
 
     return data;
 
